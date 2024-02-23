@@ -1,0 +1,357 @@
+body {
+    background-color: #ed8453;
+    text-align: center;
+    margin: 0; /* Supprime la marge par défaut du body */
+    min-height: 100vh; /* 100% de la hauteur de la fenêtre visible */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+main {
+    flex: 1;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px; /* Ajoute un peu de marge intérieure au header */
+    font-size: 150%;
+    border-bottom-right-radius: 25%;
+    border-bottom-left-radius: 25%;
+    width: 100%;
+}
+
+.icone {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Ajoutez cela pour aligner verticalement les icônes */
+    font-size: 1%;
+    width: 10%;
+}
+
+.coucou nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.coucou nav ul li a{
+    text-decoration: none; /* Supprime le soulignement par défaut du lien */
+    color: inherit; /* Hérite de la couleur du texte parent */
+    position: relative;
+    margin-right: 40px;
+}
+
+.coucou nav ul li a:hover {
+    color: #ffcc00; /* Couleur au survol */
+    font-size: larger;
+}
+
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    margin-top: auto;
+    font-size: 135%;
+}
+
+.oki ul li a{
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    color: white;
+}
+
+.oki ul li a:hover {
+    color: #ed8453;
+}
+
+.oki ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.oki ul li {
+    list-style-type: none;
+}
+
+
+.titre {
+    
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.videoo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.fox {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+.gauche {
+    writing-mode: vertical-lr;
+    font-size: 500%;
+}
+
+
+
+.titre .gauche p {
+    margin-left: auto;
+}
+
+.both {
+    display: flex;
+}
+
+.Text {
+    display: flex;
+    text-align: center;
+    font-size: 250%;
+    margin: auto;
+}
+
+.Text .gauchedeux p {
+    margin-left: auto;
+    writing-mode: vertical-lr;
+    font-size: 400%;
+}
+
+.Text p {
+    width: 50%;
+}
+
+.Equipe  {
+    max-width: 100%; /* La largeur maximale de chaque image sera égale à la largeur du conteneur */
+    height: auto; /* La hauteur s'ajustera automatiquement pour préserver le rapport hauteur/largeur */
+    margin: 10px; /
+}
+.euh {
+    font-size: 70px;
+}
+
+.Equipes {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.Personnes {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.Personnes img {
+    max-width: 250px; /* Définissez la largeur maximale souhaitée */
+    height: auto; /* Ajustez automatiquement la hauteur pour conserver le ratio d'aspect */
+    
+}
+
+.colomne1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.colomne1 img{
+    max-width: 200px; /* Définissez la largeur maximale souhaitée */
+    height: auto; /* Ajustez automatiquement la hauteur pour conserver le ratio d'aspect */
+    align-items: center;
+}
+
+.colomne2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.colomne2 img{
+    max-width: 200px; /* Définissez la largeur maximale souhaitée */
+    height: auto; /* Ajustez automatiquement la hauteur pour conserver le ratio d'aspect */
+    align-items: center;
+}
+.colomne3 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+.colomne3 img{
+    max-width: 200px; /* Définissez la largeur maximale souhaitée */
+    height: auto; /* Ajustez automatiquement la hauteur pour conserver le ratio d'aspect */
+    align-items: center;
+}
+
+.container {
+    margin-bottom: 100px;
+    margin-top: 100px;
+    background-color: rgba(255, 255, 255, 5.0); /* Légèrement teinté */
+    width: auto;
+    max-width: 90%;
+    padding: 60px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.65); /* Ombre plus prononcée */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #333; /* Couleur de texte assombrie pour un meilleur contraste */
+}
+
+.containerr {
+    margin-bottom: 100px;
+    margin-top: 100px;
+    background-color: rgba(255, 255, 255, 5.0); /* Légèrement teinté */
+    width: auto;
+    max-width: 90%;
+    padding: 60px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.65); /* Ombre plus prononcée */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #333;
+    flex-direction: row-reverse;
+}
+.containerrr {
+    margin-bottom: 100px;
+    margin-top: 100px;
+    background-color: rgba(255, 255, 255, 5.0); /* Légèrement teinté */
+    width: auto;
+    max-width: 90%;
+    padding: 60px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.65); /* Ombre plus prononcée */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #333;
+    flex-direction: row-reverse;
+    flex-direction: column;
+}
+
+.container ul li{
+    list-style-type: none;
+}
+
+.containerrr a {
+    text-decoration: none;
+    color: black;
+}
+.containerrr a:hover {
+    color: #ed8453;
+}
+
+.containerr ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 0 30px 0 0;
+}
+
+button {
+    background-color: #ed8453;
+    color: white; 
+    padding: 10px 20px; /* Espacement intérieur */
+    border: none; 
+    border-radius: 20px; 
+    cursor: pointer; 
+    transition: background-color 0.7s ease;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    background: linear-gradient(to bottom, orangered 0%, #ed8453 100%);
+}
+
+button:hover {
+    background-color: orangered; /* Couleur de fond au survol */
+}
+
+.container-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+.left-section, .right-section {
+   flex: 1;
+   height: 100%
+}
+.left-section {
+    background-color: #ed8453;
+    position: relative;
+    z-index: 2;
+}
+
+.right-section {
+    background-color: white;
+    position: relative;
+    z-index: 2;
+}
+
+.wrapper {
+    display: flex;
+    height: 100vh;
+}
+.divider {
+    position: relative;
+    width: 1px; /* Largeur de la ligne verticale */
+    background-color: black; /* Couleur de la ligne verticale */
+    height: 100%;
+}
+
+.divider::before {
+    content: ''; 
+    position: absolute;
+    top: 0;
+    left: 50%; 
+    width: 2px; 
+    height: 100%;
+    background-color: yellow; 
+    transform: translateX(-80%); 
+}
+.form-group {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+label {
+    width: 120px; /* Largeur fixe pour les labels */
+    text-align: right; /* Alignement du texte à droite */
+    margin-right: 10px; /* Marge à droite pour l'espace */
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 200px; /* Largeur des champs de saisie */
+}
+
+
+
+@media screen and (max-width: 768px) {
+    /* Appliquer des styles spécifiques pour les écrans plus petits */
+    .container {
+        padding: 30px;
+    }
+}
