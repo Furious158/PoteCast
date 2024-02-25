@@ -25,7 +25,36 @@
                 </div>
             </div>
         </div>
-            
 </body>
 </html>
+
 <?php require_once "footer.html";?>
+
+
+
+<?php
+/*
+
+if(isset($_POST['username']) && isset($_POST['username'])) {
+    function validate($data){
+        $data = trim($data);
+        $data = stripslashes($data);
+        $data = htmlspecialchars($data);
+        return $data;
+    }
+    $username = validate($_POST['username']);
+    $password = validate($_POST['password']);
+
+    if(empty($username)){
+
+    }else if(empty($pass)){
+
+    }else{
+        echo "Valid Input";
+    }
+   
+}else{
+    header("Location: Home.php")
+    exit();
+}
+*/
