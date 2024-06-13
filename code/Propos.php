@@ -28,30 +28,30 @@
         <br>
         <div class="colomne1">
             <div class="Personnes">
-                <img src="img/Jessy.jpg" alt="">
-                <p>Jessy Piquerel<br>Fillière : Info</p>
+                <img src="img/Apo.png" alt="">
+                <p>Apolline <br>Fillière : Market M1 ?</p>
             </div>
             <div class="Personnes">
-                <img src="img/Jessy.jpg" alt="">
-                <p>Jessy Piquerel<br>Fillière : Info</p>
+                <img src="img/Jeanne.png" alt="">
+                <p>Jeanne Devienne<br>Fillière : Market B3</p>
             </div>
             <div class="Personnes">
-                <img src="img/Jessy.jpg" alt="">
-                <p>Jessy Piquerel<br>Fillière : Info</p>
+                <img src="img/Anais.png" alt="">
+                <p>Anais Merieau<br>Fillière : Market B3</p>
             </div>
         </div>
         <div class="colomne2">
             <div class="Personnes">
-                <img src="img/Jessy.jpg" alt="">
-                <p>Jessy Piquerel<br>Fillière : Info</p>
+                <img src="img/Priscilla.png" alt="">
+                <p>Priscilla <br>Fillière : Crea B2</p>
             </div>
             <div class="Personnes">
-                <img src="img/Jessy.jpg" alt="">
-                <p>Jessy Piquerel<br>Fillière : Info</p>
+                <img src="img/3arbisauvage.png" alt="">
+                <p>Anis<br>Fillière : 3D B2</p>
             </div>
             <div class="Personnes">
-                <img src="img/Jessy.jpg" alt="">
-                <p>Jessy Piquerel<br>Fillière : Info</p>
+                <img src="img/oustam.png" alt="">
+                <p>Oustam<br>Fillière : 3D B2</p>
             </div>
         </div>
         <div class="colomne3">
@@ -60,12 +60,12 @@
                 <p>Jessy Piquerel<br>Fillière : Info</p>
             </div>
             <div class="Personnes">
-                <img src="img/Jessy.jpg" alt="">
-                <p>Jessy Piquerel<br>Fillière : Info</p>
+                <img src="img/ugo.png" alt="">
+                <p>Ugo<br>Fillière : Crea B1 ?</p>
             </div>
             <div class="Personnes">
-                <img src="img/Jessy.jpg" alt="">
-                <p>Jessy Piquerel<br>Fillière : Info</p>
+                <img src="img/Mamoune.png" alt="">
+                <p>Mamoune Benouna<br>Fillière : Info</p>
             </div>
         </div>   
     </div>

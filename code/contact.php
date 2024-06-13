@@ -21,7 +21,7 @@
                         <input type="password" id ="psswd" name="psswd" placeholder="Password" required>
                         <input type="submit" value="Login">
                     </form>
-                    <p> <a href="/PoteCastFinal/code/Inscription.php">Pas de compte ? Inscrivez-vous.</p>
+                    <p> <a href="/PoteCast/code/Inscription.php">Pas de compte ? Inscrivez-vous.</p>
                 </div>
             </div>
         </div>
